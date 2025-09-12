@@ -77,7 +77,7 @@ In cases where the generated changelog needs to be edited afterwards (typos, unn
 hatch build
 ```
 
-### Publish a new release to PyPi
+### Publish a new release to PyPI
 
 ```
 hatch publish
@@ -134,6 +134,6 @@ Commit series should be "linear", with individual commits being self-contained, 
 
 If possible, only loosely related changes should be submitted in separate PRs to simplify reviewing and shorten time-to-merge.
 
-Long-standing, inactive PRs (draft mode or not) are frowned upon, as they drain attention.i
+Long-standing, inactive PRs (draft mode or not) are frowned upon, as they drain attention.
 It is often better to close a PR and open a new one, once work resumes.
 Maintainers may close inactive PRs for this reason at any time.
